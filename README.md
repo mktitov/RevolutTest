@@ -71,55 +71,55 @@ URLS:
 * __/users/__ - list all users with information about accounts count and total balance:
 ```json
 [
-{
-name: "Bill Gates",
-totalBalance: 67,
-accountsCount: 2,
-id: 1,
-login: "bill"
-},
-{
-name: "Larry Ellison",
-totalBalance: 50,
-accountsCount: 2,
-id: 2,
-login: "larry"
-},
-{
-name: "Jeff Bezos",
-totalBalance: 47,
-accountsCount: 1,
-id: 3,
-login: "jeff"
-},
-{
-name: "Mark Zuckerberg",
-totalBalance: 41,
-accountsCount: 1,
-id: 4,
-login: "mark"
-},
-{
-name: "Larry Page",
-totalBalance: 33.2,
-accountsCount: 1,
-id: 5,
-login: "page"
-},
-{
-name: "Sergey Brin",
-totalBalance: 32.8,
-accountsCount: 1,
-id: 6,
-login: "sergey"
-},
-{
-name: "Pupkin Ivan",
-totalBalance: 0,
-accountsCount: 0,
-id: 7,
-login: "ivan"
-}
+  {
+    name: "Bill Gates",
+    totalBalance: 67,
+    accountsCount: 2,
+    id: 1,
+    login: "bill"
+  },
+  {
+    name: "Larry Ellison",
+    totalBalance: 50,
+    accountsCount: 2,
+    id: 2,
+    login: "larry"
+  },
+  {
+    name: "Jeff Bezos",
+    totalBalance: 47,
+    accountsCount: 1,
+    id: 3,
+    login: "jeff"
+  },
+  {
+    name: "Mark Zuckerberg",
+    totalBalance: 41,
+    accountsCount: 1,
+    id: 4,
+    login: "mark"
+  },
+  {
+    name: "Larry Page",
+    totalBalance: 33.2,
+    accountsCount: 1,
+    id: 5,
+    login: "page"
+  },
+  {
+    name: "Sergey Brin",
+    totalBalance: 32.8,
+    accountsCount: 1,
+    id: 6,
+    login: "sergey"
+  },
+  {
+    name: "Pupkin Ivan",
+    totalBalance: 0,
+    accountsCount: 0,
+    id: 7,
+    login: "ivan"
+  }
 ]
 ```
 * __users/{userId}/accounts__ - shows detailed information about user accounts. 
